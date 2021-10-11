@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr{
+    border: 5px solid purple;
+}
+
+body{
+    background-color: rgb(233, 231, 231);
+}
+
+span{
+    font-size: 40px;
+}
+
+#main .container{
+    background-color: white;
+    height: 50px;
+}
+
+.logo{
+    padding: 50px 0 0 40px;
+}
+
+.search{
+    float: right;
+    padding: 10px 50px;
+    margin-right: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(233, 231, 231);
+}
+
+h1{
+    color: grey;
+}
+.p-1{
+    color: grey;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: white;
+    width: 100%;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;   
+    margin-left: 500px;
+}
+
+.nav-links a:hover{
+    color: black;
+    
+}
+
+.nav-links a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(153, 147, 147);
+} 
+
+
+.p-2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 135px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: -418px;
+    right: 0px;
+    color: white;
+  }
+
+.container .bottom-right {
+    background-color: rgb(48, 44, 44);
+    padding: 20px 10px ;
+}
+
+#sec-2 .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: white;
+}
+#sec-2 .div-a{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sec-3 .container {
+    display: flex;
+    flex-direction: row;   
+    text-align: center;
+    margin: 30px 0;
+}
+
+.container .img {
+    background-color: white;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.img h2 + p{
+    margin: 10px;
+}
+
+#sec-4 .container{
+    background-color: white;
+    display: flex;
+    color: grey;
+}
+
+#sec-4 .container h4{
+    color: black;
+}
+
+
+#sec-4 .container .details{
+    width: 25%;
+    text-align: start;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#sec-4 .container .links {
+    width: 25%;
+    text-align: start;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+   padding: 5px;
+   text-decoration: none;
+   color: grey;
+}
+
+#sec-4 .container .blog{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#sec-4 .container .blog a{
+     padding-left: 280px;
+     text-decoration: none;
+}
+
+.container .submit{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.last-input{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(233, 231, 231) ;
+}
+
+.submit button{
+    background-color: rgb(233, 231, 231);
+    width: 40%;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .end{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 20px;
+    background-color: black;
+    color: gray;
+}
